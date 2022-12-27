@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+span.important {
+    font-style: italic;
+}
+
+.main-container {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.image-section {
+    background-image: url("./imgs/photo-1585202900225-6d3ac20a6962.avif");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image-section .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+    background-color: rgba(0,   0, 0, 0.5);
+    font-size: 6rem;
+    padding: 3rem;
+    text-align: center;
+    margin-top: 40%;
+}
+
+
+.logo-footer {
+    font-size: 0.8rem;
+    color: #939A87;
+    text-align: center;
+}
+
+.form-section {
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    background-color: #F9FAFB;
+    display: flex;
+    flex-flow: column;
+}
+
+.form-title {
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.fields-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-fields {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.form-controls {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.form-controls div {
+    width: 40%;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item label {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.submit-section {
+    margin-top: 7%;
+    padding: 1rem;
+}
+
+.submit-section button {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 8px;
+    width: 20%;
+    background-color: #596D48;
+    color: white;
+}
+
+.submit-section div {
+    margin-top: 20px;
+}
+
+.login-link {
+    color: #596D48;
+    text-decoration: none;
+}
+
+input {
+    border: 1px solid #ECEDF0;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid #91A9EC;
+    box-shadow: 0 0 2px #719ECE;
+}
